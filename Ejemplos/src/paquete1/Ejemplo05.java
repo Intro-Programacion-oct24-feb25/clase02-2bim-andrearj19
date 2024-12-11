@@ -28,7 +28,7 @@ public class Ejemplo05 {
         System.out.printf("%d\n", arreglo1.length);
         // Se hace uso del ciclo repetitivo for para recorrer el arreglo
         for (int i = 0; i < arreglo1.length; i++) {
-            System.out.printf("Subíndice o Índice %d, con valor %d\n",
+            System.out.printf("Subindice o indice %d, con valor %d\n",
                     i, arreglo1[i]);
         }
         
