@@ -27,14 +27,17 @@ public class Ejemplo02 {
         
         // arreglo de tipo double
         double[] arreglo2 = new double[5];
-        System.out.println(arreglo2[0]);
+        System.out.println(arreglo2[0]); //imprime 0.0 porque el tipo de variable
+                                        // declarada es double
         
         // arreglo de tipo String
-        String[] arreglo4 = new String[5];
+        String[] arreglo4 = new String[5];// imprime null porque el tipo de variable
+                                          // declarada es string
         System.out.println(arreglo4[0]);
         
         // arreglo de tipo boleano
-        boolean[] arreglo5 = new boolean[5];
+        boolean[] arreglo5 = new boolean[5];// imprime false porque el tipo de variable
+                                            // declarada es boolean
         System.out.println(arreglo5[0]);
     }
 
